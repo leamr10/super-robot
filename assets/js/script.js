@@ -1,4 +1,5 @@
 // Assignment code here
+var UserImput=window.prompt("Choose a password length between 8 and 128 characters");
 
 
 // Get references to the #generate element
