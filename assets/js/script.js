@@ -1,11 +1,10 @@
 // Assignment code here
+var options = [];
 
 
 function generatePassword () {
-
-    var options = [];
     var userInput =window.prompt ("Choose a password length between 8 and 128 characters ");
-    if (userInput < 8) { generatePassword() }
+    if (userInput < 8 && userInput > 128) { generatePassword() }
 
     var lowerCase =window.confirm ("Include lowercase characters? ");
     if (lowerCase == true){
@@ -16,7 +15,7 @@ function generatePassword () {
     var upperCase= window.confirm ("Include uppercase characters? ");
     if (upperCase == true) {
         var upperLetters= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-        options.push(...upperCase);
+        options.push(...upperLetters);
     }    
     var numeric= window.confirm ("Include numeric characters? ");
     if (numeric== true) {
@@ -28,7 +27,17 @@ function generatePassword () {
         var specChar = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "[", "{", "]", "}", ";", ":", "'", '"', ",", "<", ".", ">", "?", "/"];
         options.push(...specChar);
     }
+    randomChar(userInput);
 }
+
+function randomChar (userInput) {
+    for (var i=0; i < userInput; i++) {
+        var randomValue= math.floor (math.random()*options.length); 
+    }
+
+}
+
+
 
 
 // Get references to the #generate element
