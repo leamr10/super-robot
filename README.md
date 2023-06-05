@@ -17,5 +17,4 @@ the project to the point where JavaScript flows for me a lot more now.
 
 The delpoyed webpage can be found here:
 
-A screen capture of the webpage after a password was generated can be found below:
-screencapture-file-C-Users-leamr-OneDrive-Desktop-workspace-super-robot-index-html-2023-06-04-20_23_22.png
+A screen capture of the webpage after a password was generated can be found below: ![screencapture-file-C-Users-leamr-OneDrive-Desktop-workspace-super-robot-index-html-2023-06-04-20_23_22](https://github.com/leamr10/super-robot/assets/133124800/c531ff86-f703-4651-ba05-0c522e3fb75a)
